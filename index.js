@@ -85,3 +85,17 @@ let obj_3 = {...ob}
 console.log(obj_3)
 
 
+let letters = [...'hello world']
+console.log(letters)
+let upper = letters.map(item => item.toUpperCase()) // RETURN NEW ARRAY
+console.log(upper) // [H, E, L, L, O, '', W, O, R, L, D]
+let upper_2 = ''
+letters.forEach(item => upper_2 += item.toUpperCase())
+console.log(upper_2) // HELLO WORLD
+let h = [1,8,5,6,7,3,4]
+let k = h.filter(item => item%2===0)
+console.log(k) // [8, 6, 4]
+let v = k.find(item=>item>5)
+console.log(v) // 8
+let m = k.findIndex(item => item<6)
+console.log(m) // 2 
