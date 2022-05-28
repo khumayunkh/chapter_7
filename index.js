@@ -114,7 +114,7 @@
 // //====================
 // c.push(22)
 // console.log(c)
-let x = [1, 2, 3, 4, 5]
+// let x = [1, 2, 3, 4, 5]
 // console.log(x.slice(0,2)) // [1, 2]
 // x.fill(4,2,5) // [1, 2, 4, 4]
 // console.log(x)
@@ -129,24 +129,30 @@ let x = [1, 2, 3, 4, 5]
 // let z = [...'akdurms']
 // console.log(z.sort())
 // console.log(z.reverse())
-let y = Array.from(x)
-console.log(y)
-let z = [...y]
-console.log(z)
-let a = z.map(item=> item+1)
-console.log(a) // [2, 3, 4, 5, 6]
-console.log(a.filter(item => item<4)) //[2, 3]
-let b = [...'hello humoyun']
-let upper = ''
-b.forEach( item => upper += item.toUpperCase())
-console.log(upper) // HELLO HUMOYUN 
-console.log(y.slice(3,5))
-x.splice(0,3)
-console.log(x) //[4, 5]
-let i = y.fill(3,2,5)
-console.log(i)
-i.pop()
-console.log(i)
-i.shift()
-console.log(i)
-console.log(typeof i.toString()) //string
+// let y = Array.from(x)
+// console.log(y)
+// let z = [...y]
+// console.log(z)
+// let a = z.map(item=> item+1)
+// console.log(a) // [2, 3, 4, 5, 6]
+// console.log(a.filter(item => item<4)) //[2, 3]
+// let b = [...'hello humoyun']
+// let upper = ''
+// b.forEach( item => upper += item.toUpperCase())
+// console.log(upper) // HELLO HUMOYUN 
+// console.log(y.slice(3,5))
+// x.splice(0,3)
+// console.log(x) //[4, 5]
+// let i = y.fill(3,2,5)
+// console.log(i)
+// i.pop()
+// console.log(i)
+// i.shift()
+// console.log(i)
+// console.log(typeof i.toString()) //string
+
+let x = [5, 3, 43, 5, 3]
+let b=x.reduce((a,b)=> a+b,0)
+console.log(b) // 59
+
+
