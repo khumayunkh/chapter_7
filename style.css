@@ -26,3 +26,28 @@
 .header_in a:hover{
     color: white;
 }
+.support_in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+}
+.support_in img{
+    margin-right: 1%;
+    width:8%
+}
+
+.support_in a{
+    text-decoration: none;
+    color: rgb(89, 89, 234);
+    font-weight: 500;
+}
+
+.devices_in{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.devices_in img{
+    width: 700px;
+}

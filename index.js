@@ -154,5 +154,3 @@
 let x = [5, 3, 43, 5, 3]
 let b=x.reduce((a,b)=> a+b,0)
 console.log(b) // 59
-
-
