@@ -47,7 +47,32 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
+
 .devices_in img{
     width: 700px;
+}
+
+.btn_devices a{
+    text-decoration: none;
+    margin-left: 3%;
+    color: rgb(89, 89, 234);
+}
+.se_3{
+    margin-top: 5%;
+}
+.se{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.se h1{
+    margin-left: 2%;
+}
+.se_in{
+    text-align: center;
+    width: 8%;
+    border-radius: 10px;
+    border: 5px solid black;
 }
