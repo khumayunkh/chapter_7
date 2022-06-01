@@ -141,12 +141,12 @@
 }
 
 .technics_in{
-    margin-top: 5%;
+    margin-top: 10%;
     display: grid;
     grid-template-areas:
-    "a b"
-    "c d";
-    grid-gap: 2ch;
+    "a a b b"
+    "c c d d";
+    grid-gap: 8ch;
 }
 
 .technics_in a{
@@ -160,7 +160,9 @@
 }
 .wwdc{
     background-image: url('https://developer.apple.com/news/images/og/wwdc22/wwdc22-og-v3.jpg');
-    
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;
     height: 450px;
     background-repeat: no-repeat;
     grid-area: a;
@@ -171,6 +173,7 @@
     color: white;
     padding-bottom: 5%;
     line-height: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .wwdc_logo{
@@ -180,16 +183,20 @@
     justify-content: center;
 }
 .technic{
+    line-height: 4px;
+    margin-top: 6%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: black;
     width: 100%;
     grid-area: b;
+    background-size: 550px;
     height: 500px;
-    background-image: url('https://www.mactrast.com/wp-content/uploads/2022/04/Apple-Devices-1200x734.jpg');
+    background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/financing-products-og-201805?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1547782140131');
     background-size: 100%;
     background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .technic h3{
 color: coral;
@@ -198,13 +205,59 @@ color: coral;
     font-size: 30px;
 }
 ._iphone_13{
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url('https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone13_design_09142021_big.jpg.large.jpg');
+    margin-top: -6%;
     grid-area: c;
     height: 450px;
+    text-align: start;
+    line-height: 3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+._iphone_13 h1{
+    font-size: 45px;
+    margin-top: 1%;
+}
+.btn_iphone{
+    display: flex;
+}
+.buy{
+    margin-top: 2%;
+    margin-left: 25px;
+}
 .watch{
-    border: 1px solid red;
+    align-items: center;
+    justify-content: start;
+    line-height: 3px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -3%;
     grid-area: d;
     height: 450px;
+    background-image: url('https://m-cdn.phonearena.com/images/review/5245-wide_1200/Apple-Watch-Series-7-vs-Apple-Watch-Series-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* .watch h1{
+    margin-top: -8%;
+} */
+
+.watch h3{
+    color: coral;
+}
+
+.logo_watch{
+    margin-top: -12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_watch img{
+    width: 3.7%;
+    margin-right: 1%;
 }
